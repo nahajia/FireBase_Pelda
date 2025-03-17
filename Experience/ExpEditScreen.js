@@ -15,7 +15,7 @@ const ExpEditScreen = ({language, navigation, route, user }) => {
   const [uploadedImageUrl, setUploadedImageUrl] = useState(null);
 
   useEffect(() => {
-    requestPermissions();
+    //requestPermissions();
   }, []);
 
   // Request permissions for both camera and media library

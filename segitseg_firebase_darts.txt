@@ -1,3 +1,4 @@
+Gugliba: Firebase, regisztárlj , lépj be!
 1. Új project
 2. Új Web project
 3. Új firestore adatb
@@ -5,7 +6,7 @@ Build menüen Firestore database-ben lehet majd megtalálni
 Az adatb noSQL-es, mappa(collection) és azon belüli mappák és azon belüli dokumentumok vannak.
 A mappák gyűjtemények, a dokumentumokban adatok vannak mezőkkel.
 4. Start collection- új mappát hozol létre
-jatekosok(jatekos1(email, nev, szuletes) )=>meccsek(meccs1(datum, atlag, kilencnyil), meccs2(datum, atlag, kilencnyil))
+jatekosok(jatekos1(email, nev, szuletes) )=>meccsek(meccs1(datum, atlag, szaz80), meccs2(datum, atlag, szaz80))
 datum-timestamp
 atlag-number, tizedespont lehet
 szaz80-number 
@@ -34,3 +35,6 @@ service cloud.firestore {
     }
   }
 }
+
+Githubomról letölteni a frontendet, saját adataid a firebaseConfig.js fájlba!!!
+https://github.com/nahajia/FireBase_Pelda
